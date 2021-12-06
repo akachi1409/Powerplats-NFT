@@ -3,6 +3,7 @@ import './App.css';
 
 //import components
 import Home from './components/home/home';
+import Gallery from './components/gallery/gallery';
 import './assets/newStyle.css';
 import './assets/mainstyle.css'
 
@@ -11,16 +12,17 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import WhitePaper from './components/whitepaper/whitepaper';
 
 function App() {
   return (
     <Router>
       <div>
         <Routes>
-          <Route path="/home" element={<Home />}/>
-          <Route path="/gallery" element={<Home />}/>
-          <Route path="/shop" element={<Home />}/>
-          <Route path="/whitepaper" element={<Home />}/>
+          <Route path="/" element={<Home />}/>
+          <Route path="/gallery" element={<Gallery />}/>
+          <Route path="/shop" element={<Shop />}/>
+          <Route path="/whitepaper" element={<WhitePaper />}/>
         </Routes>
       </div>
     </Router>
