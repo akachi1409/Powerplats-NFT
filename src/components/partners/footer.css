@@ -1,0 +1,113 @@
+.footer_layout{
+    background-color: #242323;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.footer_section{
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(63,67,73);
+    height:250px;
+    margin: 0em 3em;
+    min-width: 1240px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_text_room{
+    flex: 1;
+    color: white;
+    border-right: solid thin rgb(63,67,73);
+    display: grid;
+    place-items: center;
+}
+
+.footer_title{
+    
+    line-height: 1.4em;
+    font-size: 30px;
+}
+
+.footer_bg_1{
+    flex: 1;
+    background-image: url(https://static.wixstatic.com/media/9529be_d7f3836102374c7aaf82f734ea89cdde~mv2.jpg/v1/fill/w_857,h_197,al_c,lg_1,q_80/OneTreePlanted_Key%20Logo_Long_Colour_edited.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-right: solid thin rgb(63,67,73);
+}
+
+/* .footer_bg_2{
+    flex: 1;
+    background-image: url(../../assets/footer/bg-2.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-right: solid thin rgb(63,67,73);
+}
+.footer_bg_3{
+    flex: 1;
+    background-image: url(../../assets/footer/bg-3.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-right: solid thin rgb(63,67,73);
+}
+.footer_bg_4{
+    flex: 1;
+    background-image: url(../../assets/footer/bg-4.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+} */
+
+@media only screen and (max-width: 1000px) {
+    .footer_section{
+        background-color: #242323;
+        border:none;
+        height:500px;
+        margin: 0em 3em;
+        min-width: 0px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_text_room{
+        border-right: none;
+        border-bottom:solid thin rgb(63,67,73) ;
+    }
+    .footer_bg_1{
+        flex: 5;
+        background-image: url(https://static.wixstatic.com/media/9529be_d7f3836102374c7aaf82f734ea89cdde~mv2.jpg/v1/fill/w_857,h_197,al_c,lg_1,q_80/OneTreePlanted_Key%20Logo_Long_Colour_edited.webp);
+        background-repeat: no-repeat;
+        border-right: none;
+        border-bottom:solid thin rgb(63,67,73) ;
+    }
+    
+    /* .footer_bg_2{
+        flex: 5;
+        background-image: url(../../assets/footer/bg-2.webp);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        border-right: none;
+        border-bottom:solid thin rgb(63,67,73) ;
+    }
+    .footer_bg_3{
+        flex: 5;
+        background-image: url(../../assets/footer/bg-3.webp);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        border-right: none;
+        border-bottom:solid thin rgb(63,67,73) ;
+    }
+    .footer_bg_4{
+        flex: 5;
+        background-image: url(../../assets/footer/bg-4.webp);
+        background-position: 50%;
+        border-right: none;
+        border-bottom:solid thin rgb(63,67,73) ;
+    } */
+}

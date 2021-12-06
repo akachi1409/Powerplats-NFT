@@ -1,0 +1,26 @@
+.state_card_layout{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20,20,22);
+}
+.state_card_title{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(112,190,74);
+    margin-bottom: 0em;
+}
+.state_card_text{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0em;
+    padding-top: 0em;
+}
+.state_card_span{
+    color: rgb(138,138,138);
+}
+.state_card_bar{
+    border: 3px solid rgb(63,67,73);
+    border-radius: 5px;
+    padding:0em;
+    margin: 0px 3em;
+}

@@ -1,0 +1,54 @@
+.collapse-header-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-family: newThing;
+}
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
+  }
+
+.collapse-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.collapse-header h4 {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #6FBD25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    font-size: 25px;
+}
+
+.collapse-header p {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: newThing;
+}
+
+.collapse-content {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: newThing;
+    text-align: left;
+}
+.display-linebreak {
+    white-space: pre-line;
+  }

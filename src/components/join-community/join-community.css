@@ -1,0 +1,27 @@
+.join-community-control {
+    background-image: url('../../assets/DickPix.png');
+    /* background-position: center; */
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 360px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.join-community-control h1 {
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.join-community-control h1 span {
+    color: #ffffff;
+}
+
+.join-community-control p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}

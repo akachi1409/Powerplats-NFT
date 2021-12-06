@@ -1,0 +1,52 @@
+.roadmap-control header span {
+    color: white;
+    /* text-shadow: 1px 0 20px rgb(200 255 0 / 31%); */
+    text-align: center;
+    color: white;
+}
+
+.roadmap-control {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #141416;
+    text-align: center;
+    color: black;
+}
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
+  }
+
+.roadmap-control header {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.roadmap-description {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: newThing;
+}
+
+.roadmap-control img {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.roadmap-control img {
+    border: solid black 2px;
+    border-radius: 0px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}

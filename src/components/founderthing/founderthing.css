@@ -1,0 +1,41 @@
+.about-control {
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-weight: 900;
+}
+
+.image-control img {
+    width: 100%;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-description header {
+    font-size: 50px;
+    line-height: 50px;
+    color: #32CD32;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.about-description p {
+    color: rgb(0, 0, 0);
+}
+
+.about-description p span {
+    color: #000000;
+    font-weight: 900;
+}
+
+.about-description header span {
+    color: #000000;
+    font-weight: 900;
+}
+
+

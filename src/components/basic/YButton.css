@@ -1,0 +1,20 @@
+.ybutton {
+    background-color: #ffffff;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+.ybutton:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,89 @@
+.mint-image img {
+    width: 100%;
+    border: solid black 2px;
+    border-radius: 0px;
+}
+
+.mint-control {
+    background-color: #141416;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    /* border-bottom: 2px solid black;
+    border-top: 2px solid black; */
+}
+
+
+.mint-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mint-description header {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+}
+
+.mint-description header span {
+    color: white;
+}
+
+.mint-description p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: newThing;
+}
+
+.mint-description .number-control {
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.mint-description .number-control span{
+    font-size: 30px;
+    color: rgb(82, 25, 25);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
+  }
+
+.ybutton {
+    background-color: #6FBD25;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 700;
+    border: solid 5px black;
+    border-radius: 20px;
+    font-family: newThing;
+}
+
+.ybutton:hover{
+    transform: scale(1.1);
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}

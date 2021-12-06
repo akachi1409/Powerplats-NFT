@@ -1,0 +1,40 @@
+.state_layout{
+    background-color: rgb(20,20,22);
+    text-align: center;
+    padding-bottom: 2em;
+}
+.state_title{
+    padding-top: 6em;
+    line-height: 1.4em;
+    font-size: 30px;
+    color: white;
+}
+
+.state_cards{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 5em;
+}
+.state_card{
+    flex: 2;
+}
+.state_bg{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://static.wixstatic.com/media/c837a6_d11c6c437c0f4feb9de8591b42ead168~mv2.jpg/v1/fill/w_1501,h_190,al_c,q_80,usm_0.66_1.00_0.01/c837a6_d11c6c437c0f4feb9de8591b42ead168~mv2.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media only screen and (max-width: 600px) {
+    .state_cards{
+        display: flex;
+        flex-direction: column;
+        padding: 0em 5em;
+    }
+    .state_bg{
+        height: 0px;
+        background-image:none;
+    }
+}

@@ -1,0 +1,9 @@
+.utilitysec {
+    height: 0px;
+}
+
+@media (min-width: 800px) {
+    .utilitysec {
+        width: 100px;
+    }
+}

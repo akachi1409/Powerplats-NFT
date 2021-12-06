@@ -1,0 +1,51 @@
+.about-control {
+    /* background-color: rgb(0, 0, 0); */
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/Poppins-Regular.ttf);
+  }
+
+.image-control img {
+    width: 100%;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-description header {
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.about-description p {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 20px;
+    font-family: newThing;
+}
+
+.about-description p span {
+    color: #000000;
+}
+
+.about-description header span {
+    color: #000000;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-control {
+        display: none;
+    }
+}

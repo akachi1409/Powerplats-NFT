@@ -1,0 +1,47 @@
+.teammember-control {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: newThing;
+}
+
+.teammember-control img {
+    width: 100%;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 0px;
+}
+
+.teammember-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.teammember-name {
+    font-size: 30px;
+    line-height: 30px;
+    /* font-style: italic; */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.teammember-occupation {
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    padding: 5px;
+    border-radius: 0px;
+    background-color: #ffffff;;
+    text-align: center;
+}
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
+  }
