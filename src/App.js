@@ -13,7 +13,7 @@ import {
   Route,
 } from "react-router-dom";
 import WhitePaper from './components/whitepaper/whitepaper';
-
+import Shop from './components/shop/shop';
 function App() {
   return (
     <Router>
